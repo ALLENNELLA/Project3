@@ -1,0 +1,30 @@
+# Large data and runtime artifacts
+data/
+logs/
+outputs/
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+
+# Script output folders
+scripts/outputs/automated_experiments/
+scripts/outputs/model_a_grid_logs/
+scripts/outputs/model_a_parallel_logs/
+scripts/outputs/model_b/
+scripts/outputs/model_b_new/
+scripts/outputs/model_b_new_lora/
+scripts/outputs/model_b_new_prompt/
+scripts/outputs/nohup_logs/
+scripts/outputs/prompt_experiments/
+
+# Script output files
+scripts/outputs/baseline_7days_evaluation.log
+scripts/outputs/baseline_7days_results.pkl
+scripts/outputs/launch_abcd_5seeds_20260330_175435.log
+scripts/outputs/launch_abcd_5seeds_bg_20260330_174651.log
+scripts/outputs/launch_b_slpe_fix_20260401.log
+scripts/outputs/launch_c_slpe_fix2_20260401.log
+scripts/outputs/launch_c_slpe_rerun_20260401.log
+scripts/outputs/launch_c_suite_rerun_fix2_20260401.log
+scripts/outputs/results_extract_AD_slpe_badge_C_random50.md
