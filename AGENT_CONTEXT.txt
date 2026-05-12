@@ -139,3 +139,4 @@
 2026-04-29: 按用户要求修复 selection_seed 与 run_seed 对齐：launch_abcd_5seeds.py 新增按任务解析 seed 逻辑，random 与 ran_x_y_z 生效时令微调 seed=selection_seed（并同步到任务名/日志 run_seed 目录）；main_pipeline.py(finetune_only) 增加同口径兜底，手工调用时若 random/ran 且传 selection_seed 也会自动用该 seed 训练。
 L141:2026-05-12: 初始化 GitHub 上传准备；新增 .gitignore，排除 data/logs/outputs 与 scripts/outputs 下指定大目录/文件，并补充忽略 __pycache__/*.pyc/*.log，避免无关大文件进入仓库。
 L142:2026-05-12: 已完成 GitHub 上传准备与推送流程：配置 origin=https://github.com/ALLENNELLA/Project3.git，合并远端 main 历史后上传本地 project3 代码，并保持大目录忽略规则。
+L143:2026-05-12: 按用户要求新增并上传 environment.yml（来源 history/project3/environment.yml）到仓库根目录，便于环境复现。
